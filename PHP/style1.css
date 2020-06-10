@@ -1,0 +1,87 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header{
+	background-image: linear-gradient((rgba(0,0,0,0.5),rgba(0,0,0,0.5)));
+	background-image:  url(VIT1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+ul{
+	float:right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+
+}
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding:5px 20px;
+	border:1px solid #000;
+	transition: 0.6s ease;
+}
+ul li a:hover{
+	background-color: #000;
+	color: #fff;
+}
+ul li.active a{
+	background-color: #FFB6C1;
+	color:#000;
+}
+.logo img{
+	float: left;
+	padding:10px;
+	width: 150px;
+	height: auto;
+
+}
+.main{
+	max-width: 1200px;
+	margin:auto;
+
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color:#fff;
+}
+.button{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.btn{
+	border: 1px solid #000;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+}
+.btn:hover{
+	background-color: #000;
+	color: #fff;
+}
+
+.fa {
+	margin-right: 10px;
+	color: #fff;
+}
+
+.eye{
+
+	position: absolute;
+}
+
+#eye_hide1{
+
+	display: none;
+}

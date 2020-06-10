@@ -1,0 +1,19 @@
+
+Database queries - to insert data into faculty_basic table
+
+INSERT INTO `faculty_basic` (`emp_code`, `fac_username`, `fac_password`, `f_name`, `m_name`, `l_name`, `fac_dept`, `fac_e_mail`, `doj`, `dob`, `post`, `fac_contact`, `fac_extn_number`) VALUES ('VIT0438', 'rohit.barve', 'RohitBarve0901', 'Rohit', 'Shekhar', 'Barve', 'Information Technology', 'rohit.barve@vit.edu.in', '2011-08-01', '1989-11-21', 'Assistant Professor', '8898138232', '1319');
+
+INSERT INTO `faculty_basic` (`emp_code`, `fac_username`, `fac_password`, `f_name`, `m_name`, `l_name`, `fac_dept`, `fac_e_mail`, `doj`, `dob`, `post`, `fac_contact`, `fac_extn_number`) VALUES ('VIT0439', 'krutika.barve', 'krutika@123', 'Krutika', 'rohit', 'barve', 'INFT', 'krutika990@gmail.com', '2011-06-01', '1990-01-09', 'Associate Professor', '9819530932', '1319');
+
+INSERT INTO `faculty_basic` (`emp_code`, `fac_username`, `fac_password`, `f_name`, `m_name`, `l_name`, `fac_dept`, `fac_e_mail`, `doj`, `dob`, `post`, `fac_contact`, `fac_extn_number`) VALUES ('VIT0595', 'ashish.shekhar', 'ashish@123', 'Ashish', '', 'Shekhar', 'EXTC', 'ashish.shekhar@vit.edu.in', '2012-06-02', '1988-02-27', 'Assistant Professor', '9766995080', '1349');
+
+INSERT INTO `faculty_basic` (`emp_code`, `fac_username`, `fac_password`, `f_name`, `m_name`, `l_name`, `fac_dept`, `fac_e_mail`, `doj`, `dob`, `post`, `fac_contact`, `fac_extn_number`) VALUES ('VIT0600', 'amit.maurya', 'amit@123', 'Amit', 'Rakesh', 'Maurya', 'EXTC', 'amit.maurya@vit.edu.in', '2012-06-01', '1990-03-21', 'Professor', '9867708423', '1349');
+
+Database queries - to insert data into student_basic table
+INSERT INTO `student_basic` (`roll_number`, `stud_f_name`, `stud_m_name`, `stud_l_name`, `stud_branch`, `stud_dob`, `stud_e_mail`, `stud_password`) VALUES ('12112A0001', 'kavish', 'rohit', 'barve', 'INFT', '2018-04-03', 'kavish@gmmail.com', 'kavish@123');
+
+INSERT INTO `student_basic` (`roll_number`, `stud_f_name`, `stud_m_name`, `stud_l_name`, `stud_branch`, `stud_dob`, `stud_e_mail`, `stud_password`) VALUES ('12101D0001', 'nihar', 'vaibhav', 'joshi', 'EXTC', '2019-05-03', 'nihar@gmail.com', 'nihar@123');
+
+Create table
+For cluster table
+CREATE TABLE `course_diary_digitization`.`cluster_details` ( `cluster_id` INT NOT NULL AUTO_INCREMENT , `cluster_name` TEXT NOT NULL , `vit_mentor` TEXT NOT NULL , `e_a_mentor` TEXT NOT NULL , `e_a_institute` TEXT NULL , `e_a_post` TEXT NULL , `e_a_contact` BIGINT NULL , `e_a_address` TEXT NULL , `e_i_mentor` TEXT NULL , `e_i_company` TEXT NULL , `e_i_post` TEXT NULL , `e_i_contact` BIGINT NULL , `e_i_address` TEXT NULL ) ENGINE = InnoDB;
